@@ -22,22 +22,22 @@ const data = [
     {
         title: "Design Services",
         p: "Our landscaping design service offers a comprehensive solution for creating beautiful outdoor spaces.",
-        img: "/images/landscaping-design.jpg",
+        img: "images/landscaping-design.jpg",
     },
     {
         title: "Maintenance Services",
-        p: "Our landscaping design service offers a comprehensive solution for creating beautiful outdoor spaces.",
-        img: "/images/lawn-care.jpg",
+        p: "Our maintenance services ensure that your outdoor spaces remain vibrant and healthy, offering comprehensive care for your lawn, garden, and overall landscape.",
+        img: "images/lawn-care.jpg",
     },
     {
         title: "Installation Services",
-        p: "Our landscaping design service offers a comprehensive solution for creating beautiful outdoor spaces.",
-        img: "/images/irrigation-installation.jpg",
+        p: "We offer professional installation services to bring your landscape vision to life, including planting, hardscaping, and irrigation system setup.",
+        img: "images/irrigation-installation.jpg",
     },
     {
         title: "Specialty Services",
-        p: "Our landscaping design service offers a comprehensive solution for creating beautiful outdoor spaces.",
-        img: "/images/specialty-services.jpg",
+        p: "Our specialty services cater to unique landscape needs, including custom lighting, renovation, and commercial landscaping projects, ensuring exceptional results.",
+        img: "images/specialty-services.jpg",
     },
 ];
 
