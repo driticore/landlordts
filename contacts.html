@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandLordts | Contact</title>
+
+    <script src="components/service-slides.js"></script>
+    <script src="components/navbar.js"></script>
+
+
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="navbar"></header>
+    <section class="contact-us">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Whether you have a question about our services or need a quote, feel free to reach out.</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+27 69 500 5932</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@landlordts.com</p>
+                </div>
+            </div>
+    
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="https://formsubmit.co/finchford5@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 25px; margin-top: 25px;">
+                <span>Or</span>
+                <a href="https://wa.me/0695005932" style="padding: 15px; background-color: rgb(0, 0, 0); border-radius: 5px; text-decoration: none; color: white;">Contact Us Here <i class="ri-whatsapp-line"></i></a>    
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
